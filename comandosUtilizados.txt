@@ -1,0 +1,40 @@
+ 19  git init
+   20  git add .
+   21  git commit -m 'commit 01 de DaliaBarranco'
+   22  git branch -M main
+   23  git remote add origin https://github.com/Quecky/20230605-DaliaBarranco.git
+   24  git push origin main
+   25  git remote -v
+   26  touch comandos.txt main.js index.html
+   27  git status
+   28  git commit
+   29  git add .
+   30  git commit -m 'commit 01 de DaliaBarranco'
+   31  git push origin main
+   32  git branch feature01
+   33  git switch feature01
+   34  mkdir Terminal Hardware
+   35  touch Terminal/resumen.txt Hardware/resumen.txt
+   36  ls -R
+   37  git add .
+   38  git commit -m 'commit 02 de DaliaBarranco'
+   39  git push origin feature01
+   40  git branch feature02
+   41  git switch feature02
+   42  ls
+   43  cd Terminal
+   44  nano resumen.txt
+   45  cd ..
+   46  cd Hardware
+   47  nano resumen.txt
+   48  git add .
+   49  git commit -m 'commit 03 de DaliaBarranco'
+   50  cd ..
+   51  git add .
+   52  git commit -m 'commit 04 de DaliaBarranco'
+   53  git push origin feature02
+   54  git switch main
+   55  history 20
+   56  mv comandos.txt comandosUtilizados.txt
+   57  history 30
+   58  history 40

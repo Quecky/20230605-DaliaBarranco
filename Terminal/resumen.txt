@@ -1,0 +1,14 @@
+- Ver commits creados en una sola linea - 
+git log --oneline
+
+- Remover vinculación repositorio -
+git remote remove origin
+
+- Crear rama principal - 
+git branch -M main (o master)
+
+- Crear rama - 
+git branch @nombrenuevarama
+
+- Ver pendientes en rama actual - 
+git checkout
